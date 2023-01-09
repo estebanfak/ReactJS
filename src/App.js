@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import ComponenteA from './components/pure/componenteA';
+import { Contacto } from './models/contacto.class';
 
 function App() {
+
+  const defaultContact = new Contacto('Esteban', 'Casile', 'esteban@gmail.com', false);
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ComponenteA contacto={defaultContact}></ComponenteA>
       </header>
     </div>
   );
