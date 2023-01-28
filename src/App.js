@@ -4,10 +4,11 @@ import ComponenteA from './components/pure/componenteA';
 import { Contacto } from './models/contacto.class';
 import Clock2 from './components/pure/ejercicio4-5-6';
 import ContactList from './container/contactList';
+import Box from './components/pure/box';
 
 function App() {
 
-  // const defaultContact = new Contacto('Esteban', 'Casile', 'esteban@gmail.com', false);
+  const defaultContact = new Contacto('Esteban', 'Casile', 'esteban@gmail.com', false);
 
   return (
     <div className="App">
@@ -19,7 +20,10 @@ function App() {
         {/* <Clock2></Clock2> */}
 
         {/* Ejercicio 7, 8, 9 */}
-        <ContactList></ContactList>
+        {/* <ContactList></ContactList> */}
+
+        {/* Ejercicio 10, 11, 12 */}
+        <Box></Box>
 
     </div>
   );
