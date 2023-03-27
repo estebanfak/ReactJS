@@ -5,6 +5,7 @@ import { Contacto } from './models/contacto.class';
 import Clock2 from './components/pure/ejercicio4-5-6';
 import ContactList from './container/contactList';
 import Box from './components/pure/box';
+import ChuckNorrisJokes from './components/pure/ChuckNorrisJokes';
 
 function App() {
 
@@ -23,7 +24,10 @@ function App() {
         {/* <ContactList></ContactList> */}
 
         {/* Ejercicio 10, 11, 12 */}
-        <Box></Box>
+        {/* <Box></Box> */}
+
+        {/* Ejercicio 19, 20, 21 */}
+        <ChuckNorrisJokes/>
 
     </div>
   );
